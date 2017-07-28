@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #263238;
+}
+*{
+    font-family: h2-header;
+    border: none;
+    color: white
+}
+ul li{
+    z-index: 20000;
+}
+#nav{
+    z-index: 4000;
+}
+#haut-navigation{
+    margin-top: -150px;
+}
+form{
+    margin-top: 150px;
+    margin-bottom: 190px;
+    margin-left:500px;
+    padding: 20px;
+    align-content: center;
+    width: 600px;
+    height: 400px;
+    border-top: 10px solid #c6c7cc;
+    border-bottom:10px solid #c6c7cc; 
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:2px 2px 10px 10px  rgba(0,0,0,0.10);
+    -webkit-box-shadow:2px 2px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow:2px 2px 10px 4px rgba(0,0,0,0.8);
+}
+h1{
+    font-family: h2-header;
+    padding: 5px;
+    color: teal;
+}
+label{
+    position: relative;
+    float: left;
+    text-align: left;
+    font-family: h2-header;
+    font-size: 19px;
+    display:block;
+    color: teal;
+    width: 200px;
+   
+}
+input{
+    margin-left: 20px;
+    width:300px;
+	height:25px;
+	background-color: white;
+    position:relative;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+div#buttons{
+    position: relative;
+    left: -200px;
+}
+p a{
+    color: teal;
+}
+p a:hover{
+    color: white;
+}
+p.signin_button{
+    position: relative;
+    align-content: left;
+{
+    

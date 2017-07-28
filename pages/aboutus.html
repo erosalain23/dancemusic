@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>I-Musique</title>
+        <link rel="icon" href="../icones/music-note-icon-93460.png">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css/materialize.css">
+        <style>
+            body{
+                background-image: url("../images/blurred-background-10.jpg");
+            }
+            
+            div.container{
+                margin-top: 200px;
+                align-content: center;
+            }
+            .btn-opacity{
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+  filter: alpha(opacity=50); 
+  opacity: 0.8;
+}
+button.btn{
+    margin-top: 10px;
+    font-family: buttons;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 15px 60px 15px 60px;
+    background-color: #0277BD;
+    color: white;
+    border-style: none;
+    border-radius: 70px;
+}
+button.font{
+    font-family: sans-serif;
+}
+#buttons a{
+    padding:40px;
+}
+    
+.btn span {
+    margin-top: -60px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+            button span{
+            top:-14px;
+            }
+div#profile{
+    margin-left: 15%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 4px rgba(0,0,0,.5);
+}
+.img-circle{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    top: -40px;
+    right: 20px;
+}
+        </style>
+    </head>
+    <body>
+        <div id="button">
+                  <a href="../index.html"><button class="btn btn-opacity font"><span>HOME</span></button></a>
+              </div>
+        <div class="container">
+            <center><h1> About Developers</h1></center>
+            <div class="row">
+                <div class="col s4"></div>
+                <div class="col s6">
+                    <ul class="collapsible" data-collapsible="accordion">
+                <li>
+              <div id="profile">
+                      <img class="img-circle" src="../images/billy.jpg">
+                  </div>
+              <div class="collapsible-header">BYIRINGIRO BILLY</div>
+              <div class="collapsible-body">
+                  <span>BYIRINGIRO BILLY developer and Student at BIRGE TO
+                  RWANDA currently applying at MIT in COMPUTER STUDIES also
+                  worked on many other projects and he is also part of FI.</span>
+            </div>
+               </li>
+               <li>
+                   <div id="profile">
+                      <img class="img-circle" src="../images/BeautyPlus_20160822125741_fast.jpg">
+                  </div>
+            <div class="collapsible-header">
+                ALAIN EROS PRESTIGE</div>
+            <div class="collapsible-body"> 
+            <span>ALAIN EROS PRESTIGE CEO of everything company currently studying at Hel.</span>
+            </div>
+              </li>
+       </ul>
+                </div>
+                <div class="col s4"></div>
+            </div>
+        </div>
+        
+    <footer>
+        <center>site design /logo &copy;<a href="https://commons.wikimedia.org/wiki/File:E_Train_(1967-1979).svg">Wikimedia</a> site front end designer &copy;2015 <a href="mailto:erosalain23@gmail.com">Billy et Eros</a>
+              </center>
+    </footer>
+          <script type="text/javascript" src="../js/materialize.js"></script>
+        <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>     <script type="text/javascript">
+        $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+        </script>
+    </body>
+</html>
